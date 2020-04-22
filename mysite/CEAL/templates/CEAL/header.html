@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CEAL</title>
+	<meta charset="utf-8" />
+	{% load static %}
+	<link rel='stylesheet' href="{% static 'CEAL/css/bootstrap.min.css' %}"
+	type = 'text/css'/>
+
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	
+	<style type="text/css">
+		html,
+		body {
+		  height:100%
+		}
+	</style>
+</head>
+
+
+<body class="body" style="background-color:#5A7AE1">
+	<div class="container-fluid" style="min-height:95%; ">
+		<div class="row">
+			  <div class="col-sm-2">
+				  <br>
+					<img src="{% static 'CEAL/img/massey.png' %}" class="responsive-img" style='max-height:100px;' alt="face">
+			  </div>
+			  <div class="col-sm-10">
+				  <br>
+				  <center>
+				  <h3>Controlled Environment Agriculture Limited</h3>
+				  </center>
+			  </div>
+		</div><hr>
+			   {% block content %}
+			   {% endblock %}	
+			</div>
+		  </div>
+		</div> 
+	</div>
+	<footer>
+
+	</footer>	
+	
+</body>
+
+</html>

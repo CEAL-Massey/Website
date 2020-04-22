@@ -1,0 +1,6 @@
+From Vincent to Everyone:  12:15 PM
+We need to add a data path to connect ALU result and data out ? 
+From Vincent to Everyone:  12:27 PM
+Why is not i3 for the bottom two comparator units?? 
+From Vincent to Everyone:  12:34 PM
+ok, It should be , [Rd == Prev.Rd && i3 && reg writing ]?
