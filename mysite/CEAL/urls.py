@@ -18,5 +18,5 @@ from django.urls import path, include, re_path
 from . import views
 
 urlpatterns = [
-    re_path('', views.index, name='index'),
+    re_path('', views.sales, name='sales'),
 ]

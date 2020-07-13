@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+	<!-- jQuery CDN -->
+	<script
+	src="https://code.jquery.com/jquery-1.12.4.min.js"
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	crossorigin="anonymous"></script>
+	 <!-- Highcharts CDN -->
+	<script src="https://code.highcharts.com/highcharts.src.js"></script>
+	{% load chartit %}
+	{{cht|load_charts:"cht"}}
 	<title>CEAL</title>
 	<meta charset="utf-8" />
 	{% load static %}
