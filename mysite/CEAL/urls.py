@@ -18,5 +18,6 @@ from django.urls import path, include, re_path
 from . import views
 
 urlpatterns = [
-    re_path('', views.sales, name='sales'),
+    re_path('disp', views.index, name='index'),
+    re_path('csv', views.csv, name='csv')
 ]
