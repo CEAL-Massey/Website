@@ -10,11 +10,18 @@
 
 <body>
 <div id = "container"> </div>
-<script src="https://code.highcharts.com/highcharts.src.js"></script>
+<!-- <script src="https://code.highcharts.com/highcharts.src.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/data.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
+-->
 
+{% load static %}
+<link rel='stylesheet' href="{% static 'CEAL/js/bootstrap.min.js' %}"/>
+<script src="{% static 'CEAL/js/highcharts_source.js' %}"></script>
+<script src="{% static 'CEAL/js/highcharts_js.js' %}"></script>
+<script src="{% static 'CEAL/js/highcharts_data.js' %}"></script>
+<script src="{% static 'CEAL/js/highcharts_exporting.js' %}"></script>
 
 <!-- <div class="ld-row">
 	<label class="ld-label">

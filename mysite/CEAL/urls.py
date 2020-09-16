@@ -19,5 +19,10 @@ from . import views
 
 urlpatterns = [
     re_path('disp', views.index, name='index'),
-    re_path('csv', views.csv, name='csv')
+    re_path('csv', views.csv, name='csv'),
+    #re_path('source', views.source, name='source'),
+    #re_path('js', views.js, name='js'),
+    #re_path('data', views.data, name='data'),
+    #re_path('exporting', views.exporting, name='exporting'),
+    #re_path('bootstrap', views.bootstrap, name='bootstrap')
 ]
