@@ -52,10 +52,17 @@ var urlInput =  defaultData;
 function createChart() {
     Highcharts.chart('container', {
         chart: {
-            type: 'spline'
+            type: 'line',
+            height: 500
+        },
+        yAxis: {
+            text: 'Temperature'
+        },
+        xAxis: {
+            text: 'Timestamp'
         },
         title: {
-            text: 'Temperature'
+            text: 'Growing Environment Temperature'
         },
         accessibility: {
             announceNewData: {
